@@ -29,5 +29,4 @@ loop do
   rescue => err
     @log.warn(err)
   end
-  sleep @term
 end
